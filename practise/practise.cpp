@@ -9,19 +9,19 @@ int main(){
     // cout << "enter how many columns you want to print. " << endl;
     // cin >> col;
 
-   int n; 
-   cout << endl;
-   cin >> n;
+   int a = 1 ;
+   int b = 2 ;
 
-   for(int i = 1 ; i <= n ; i++){
-    for(int j = 1 ; j <= i ; j++){
-
-        cout << i << " " ;
-
-
-    }
-    cout << endl;
+   if (a-- > 0 && ++b > 2)
+   {
+    cout << "stage1 - inside if ";
    }
+   else{
+    cout << "Stage 2 - Inside else ";
+   }
+
+   cout << a << " " << b << endl;
+   
 
 
 
