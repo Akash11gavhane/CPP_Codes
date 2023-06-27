@@ -22,4 +22,4 @@
     else{
         cout << "prime Number " << endl ;  
     }
- }
+ 

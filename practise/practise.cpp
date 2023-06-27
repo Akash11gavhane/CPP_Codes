@@ -3,28 +3,31 @@ using namespace std;
 
 int main(){
 
-    // int row , col ;
-    // cout << "enter how many star rows you want to print. " << endl;
-    // cin >> row;
-    // cout << "enter how many columns you want to print. " << endl;
-    // cin >> col;
 
-   int a = 1 ;
-   int b = 2 ;
+    int n ; 
+    cout << "enter the value of n : " ; 
+    cin >> n ; 
 
-   if (a-- > 0 && ++b > 2)
-   {
-    cout << "stage1 - inside if ";
-   }
-   else{
-    cout << "Stage 2 - Inside else ";
-   }
+    int i = 1 ; 
+    
+    while(i <= n){
 
-   cout << a << " " << b << endl;
-   
-
-
-
+        int space = n - i ;
+        while(space){
+            cout << "  " ;
+            space = space - 1;
+        }
+        int j = 1 ;
+        while(j <= i){
+            cout << "* " ;
+            j++ ;
+        }
+        cout << endl;
+        i++ ;
+    }
+    
+    
 
     return 0;
 }
+
