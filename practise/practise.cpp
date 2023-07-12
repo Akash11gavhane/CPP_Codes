@@ -3,28 +3,31 @@ using namespace std;
 
 int main(){
 
-    // int row , col ;
-    // cout << "enter how many star rows you want to print. " << endl;
-    // cin >> row;
-    // cout << "enter how many columns you want to print. " << endl;
-    // cin >> col;
 
-   int n; 
-   cout << endl;
-   cin >> n;
+    int n ; 
+    cout << "enter the value of n : " ; 
+    cin >> n ; 
 
-   for(int i = 1 ; i <= n ; i++){
-    for(int j = 1 ; j <= i ; j++){
+    int i = 1 ; 
+    
+    while(i <= n){
 
-        cout << i << " " ;
-
-
+        int space = n - i ;
+        while(space){
+            cout << "  " ;
+            space = space - 1;
+        }
+        int j = 1 ;
+        while(j <= i){
+            cout << "* " ;
+            j++ ;
+        }
+        cout << endl;
+        i++ ;
     }
-    cout << endl;
-   }
-
-
-
+    
+    
 
     return 0;
 }
+
