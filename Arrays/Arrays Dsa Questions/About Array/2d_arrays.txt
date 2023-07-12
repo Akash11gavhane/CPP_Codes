@@ -1,0 +1,31 @@
+
+2D - Arrays.
+
+means storing 2 or more arrays of same type
+
+
+int arr[3][5] = {{0 , 1 , 2 , 3 , 4} , {5 , 6 , 7 , 8 , 9 } , {10 , 11 , 12 , 13 , 14} }
+
+
+how to store element in 2d arrays
+
+    arr[0][0] = 0;
+    arr[0][1] = 1;
+    arr[0][3] = 2;
+
+access the element = 
+
+    print --> 11
+
+        cout << arr[2][1] ;
+
+    print --> 7 
+
+        cout << arr[1][2] ; 
+
+for changing the element of an array : 
+
+    its similar to above operation
+
+
+

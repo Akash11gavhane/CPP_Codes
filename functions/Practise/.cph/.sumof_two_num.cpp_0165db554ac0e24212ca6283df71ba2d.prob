@@ -1,0 +1,1 @@
+{"name":"Local: sumof_two_num","url":"e:\\cpp start\\CPP_Codes\\functions\\Practise\\sumof_two_num.cpp","tests":[{"id":1688988258115,"input":"2 5","output":"7"},{"id":1688988270267,"input":"58 65","output":"123"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cpp start\\CPP_Codes\\functions\\Practise\\sumof_two_num.cpp","group":"local","local":true}

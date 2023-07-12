@@ -1,0 +1,61 @@
+
+/*
+
+Arrays 
+
+a. When you use array
+
+    when you have to store multiple elements of same data type you use arrays.
+
+b. Defining a array
+
+    int arr[5] ; 
+
+    char arr[5] ; 
+
+    float arr[5] ;
+
+    float arr[5] ; 
+
+    long long arr[5] ; 
+
+    thats how we initialise the array.
+
+note - array index are start from 0 to n - 1
+
+c. Store elements in array : 
+
+        int arr[5] ; 
+
+        cin >> arr[0] ; 
+
+        or 
+
+        arr[0] = 10 ;
+
+d. accessing the elements of array
+
+    int arr[5] = { 1 , 2 , 3 , 4 , 5}
+    
+    cout << arr[0] --> 1
+    cout << arr[1] --> 2
+    cout << arr[4] --> 5
+
+e. replacing array elements : 
+
+    int arr[5] = { 1 , 2 , 3 , 4 , 5}
+
+    arr[0] = 10
+    arr[1] = 20
+    arr[2] = 30
+    arr[3] = 40
+    arr[4] = 50
+
+    array = {10 , 20 , 30 , 40 , 50}
+
+
+note : 
+
+    1. the array is stored at memory location --> address
+    2. the memory location or address is random
+*/
